@@ -1,0 +1,60 @@
+body{
+    background: #93BFCF;
+    text-align: center;
+    
+}
+
+.loginImg{
+    height: 75px;
+    width: 250px;
+    margin-top: 250px;
+}
+.BGImage{
+    width: 650px;
+    height: 650px;
+}
+
+.row{
+    padding-top: 100px ;
+    padding-left: 350px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    width: 150px;
+}
+
+.btn-primary:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,36 @@
+.a{
+    color: green;    
+}
+
+.btn{
+    margin: 2pt;
+}
+
+.tablecss{
+    border-collapse:collapse;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.tablecss thead tr{
+    background-color: green;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tablecss th,
+.tablecss td{
+    padding: 12px 15px;
+}
+
+.tablecss tbody{
+    border-bottom: 1px solid white;
+}
+
+.tablecss tbody tr:last-of-type{
+   border-bottom: 2px solid green;
+}

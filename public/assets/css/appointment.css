@@ -1,0 +1,42 @@
+.default, .default:active, .default:visited {
+    background: #315574 !important;
+    outline: none !important;
+    padding: 10px 24px;
+    color: #fff !important;
+    transition: 0.4s;
+    
+}
+
+.additionalbutton{
+    margin-bottom: 15px;
+}
+
+.caroImg{
+    object-fit: cover;
+    width:80%;
+    height: 430px !important;
+  }
+.additionalbutton, .labs{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+;}
+
+.a{
+    width:30px;
+    height: 30px;
+}
+.modalfont, .labs{
+    margin-top: 20px;
+
+}
+.hello{
+text-align: left;
+font-weight: bold;
+padding-bottom: 5px;
+}
+
+.price{
+    text-align: right;
+}

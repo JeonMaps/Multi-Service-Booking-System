@@ -1,0 +1,89 @@
+.main-background-color-2 {
+    background: rgb(237, 235, 235) !important;
+  }
+
+  .card:hover{
+    box-shadow: 20px 20px 80px -44px black;
+    transition: .5s ease-in-out;
+    transform: translate(0px, -8px);
+  }
+.card .card-img-top{
+    
+    height: 300px;
+    object-fit: contain;
+}
+.bImage {
+    position: relative;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+/* .childImage{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    border: 1px green solid;
+}
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+.servepic{
+    object-fit: cover;
+    width:100%;
+    height: 10rem !important;
+}
+.starRating{
+    height: 50px;
+    width: 50px;
+    float:right;
+}
+
+.reviewBtn{
+    margin-top: 10px;
+    float:right;
+}
+
+.serviceCard{
+    height: 300px;
+}
+
+.Description{
+    height: 125px
+}
+
+.btn-primary:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,41 @@
+.card{
+    width: 100%;
+}
+
+.Bimage{
+    object-fit: cover;
+    height: 300px;
+}
+.description{
+    font-size: 17px;
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card, .card-Header{
+    margin-bottom: 5px;
+}
+.proceedBtn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.buttons {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+}
+    
+.action_btn {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.textA{
+    color: red;
+    margin-left: 10px;
+}
